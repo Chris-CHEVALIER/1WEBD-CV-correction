@@ -1,0 +1,111 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-image: url('../images/blured-background.jpeg');
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+header a {
+  color: white;
+}
+
+header a:hover {
+  color: dodgerblue;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.profil-picture {
+  border-radius: 100%;
+  height: 160px;
+}
+
+.icon {
+  font-size: 32px;
+  margin: 5px;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+td,
+th {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+}
+
+#trainings b {
+  color: seagreen;
+}
+
+section:nth-child(even) {
+  background-color: dodgerblue;
+  color: white;
+  padding: 2% 5%;
+}
+
+section:nth-child(odd) {
+  color: dodgerblue;
+  padding: 2% 5%;
+}
+
+#summary a {
+  color: dodgerblue;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.button {
+  background-color: orange;
+  border-radius: 15px;
+  padding: 5px 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.button:hover {
+    background-color: rgba(255, 166, 0, 0.675);
+    padding: 8px 28px;
+    transition: all 0.3s;
+    box-shadow: 0px 5px 8px gray;
+    color: blagit initck;
+    text-decoration: underline;
+  }
+
+@media all and (max-width: 480px) {
+  table {
+    font-size: 9px;
+  }
+
+  #material {
+    display: none;
+  }
+}

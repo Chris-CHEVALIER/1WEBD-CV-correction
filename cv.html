@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/styles/cv.css" />
+    <title>Chris Chevalier</title>
+  </head>
+  <body>
+    <header>
+      <div class="text-center">
+        <h1 class="title">Chris Chevalier</h1>
+        <h2>Développeur/Formateur web et mobile fullstack</h2>
+      </div>
+      <img
+        class="profil-picture"
+        src="./assets/images/profile-picture.png"
+        alt="Photo de profil"
+      />
+      <div>
+        <a href="https://www.linkedin.com/feed/" target="_blank">
+          <i class="fa-brands fa-linkedin icon"></i>
+        </a>
+        <br>
+        <a href="https://chris-freelance.com/" target="_blank">
+          <i class="fa-solid fa-globe icon"></i>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <nav>
+        <section id="summary">
+          <h3>Sommaire</h3>
+          <ul>
+            <li><a href="#profile">Profil</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#trainings">Formations</a></li>
+            <li><a href="#experiences">Expériences professionnelles</a></li>
+          </ul>
+        </section>
+      </nav>
+      <section id="profile">
+        <h3>Profil</h3>
+
+        <table>
+          <tr>
+            <th colspan="2">Noms</th>
+            <th>Description</th>
+            <th>Âge</th>
+            <th>Téléphone</th>
+          </tr>
+          <tr>
+            <td>Chris</td>
+            <td>Chevalier</td>
+            <td>Développeur/Formateur web et mobile fullstack</td>
+            <td>30</td>
+            <td>0123456789</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="skills">
+        <h3>Compétences</h3>
+        <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>PHP</li>
+          <li>JavaScript</li>
+          <li>React (JS)</li>
+          <li>Symfony (PHP)</li>
+          <li>React Native</li>
+        </ol>
+      </section>
+
+      <section id="trainings">
+        <h3>Formations</h3>
+        <ul>
+          <li>Master ingénierie logicielle - <b>Avignon</b> 2020</li>
+          <li>Licence informatique - <b>Avignon</b> 2018</li>
+          <li>BTS Comptabilité - <b>Montpellier</b> 2014</li>
+        </ul>
+      </section>
+
+      <section id="experiences">
+        <h3>Expériences professionnelles</h3>
+        <ul>
+          <li>Formateur web et mobile - École Hexagone</li>
+          <li>Développeur web - FujiDAO</li>
+          <li>Développeur web et mobile fullstack - IAS</li>
+        </ul>
+      </section>
+
+      <section id="material">
+        <h3>Matériel</h3>
+        <picture>
+            <source media="(max-width: 580px)" srcset="./assets/images/macbook-air.jpeg">
+            <source media="(max-width: 1080px)" srcset="./assets/images/macbook-pro.jpeg">
+            <img width="80%" src="./assets/images/mac-pro.webp" alt="Ordinateur de travail">
+        </picture>
+      </section>
+    </main>
+
+    <footer>
+        <a class="button" href="mailto:chris.chevalier@ecole-hexagone.com">Contactez-moi !</a>
+    </footer>
+  </body>
+</html>
